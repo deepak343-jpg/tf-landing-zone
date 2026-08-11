@@ -1,0 +1,48 @@
+[
+ {
+  "RuleID": "hardcoded-password",
+  "Description": "Detect hardcoded passwords",
+  "StartLine": 85,
+  "EndLine": 85,
+  "StartColumn": 16,
+  "EndColumn": 41,
+  "Match": "password = \"Bangalore123#\"",
+  "Secret": "password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 2.75,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "security"
+  ],
+  "Fingerprint": "terraform.tfvars:hardcoded-password:85"
+ },
+ {
+  "RuleID": "hardcoded-password",
+  "Description": "Detect hardcoded passwords",
+  "StartLine": 99,
+  "EndLine": 99,
+  "StartColumn": 16,
+  "EndColumn": 41,
+  "Match": "password = \"Bangalore123#\"",
+  "Secret": "password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 2.75,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "security"
+  ],
+  "Fingerprint": "terraform.tfvars:hardcoded-password:99"
+ }
+]
