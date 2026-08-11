@@ -1,23 +1,23 @@
-variable "rgs"{
+variable "rgs" {
 
 }
 
-variable "vnets"{
+variable "vnets" {
 
 }
 
-variable "snets"{
+variable "snets" {
 
 }
 
-variable "pips"{
+variable "pips" {
 
 }
 
 variable "nics" {
-  
+
 }
 
-variable "vms"{
+variable "vms" {
 
 }
