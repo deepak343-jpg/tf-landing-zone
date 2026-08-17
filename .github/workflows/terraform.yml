@@ -22,6 +22,14 @@ jobs:
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
+      
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: 14f96396-240d-4b4a-a8a7-ef763d077ee2
+          tenant-id: 2e08cf7f-8ba4-4151-bed9-f1b316f95dd9
+          subscription-id: 158934aa-48ae-4aa1-bae5-78194afd79f3
+          client-secret: je28Q~GSgbnzxZNE45~DpLHPDyCWqzeyc~30Jb2P
 
       - name: Terraform Init
         working-directory: ./parent_module
