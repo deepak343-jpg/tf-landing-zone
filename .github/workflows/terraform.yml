@@ -50,4 +50,4 @@ jobs:
 
       - name: Terraform Apply
         working-directory: ./parent_module
-        run: terraform apply --auto-approve
+        #run: terraform apply --auto-approve
