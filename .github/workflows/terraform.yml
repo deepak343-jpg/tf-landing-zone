@@ -45,4 +45,5 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
+        working-directory: ./parent_module
         run: terraform plan
