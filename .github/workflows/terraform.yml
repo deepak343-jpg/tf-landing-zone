@@ -47,3 +47,7 @@ jobs:
       - name: Terraform Plan
         working-directory: ./parent_module
         run: terraform plan
+
+      - name: Terraform Apply
+        working-directory: ./parent_module
+        run: terraform apply --auto-approve
