@@ -1,0 +1,21 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+- script: |
+    echo "Hello from Azure DevOps!"
+    echo "Pipeline is running successfully."
+    echo "Agent: %AGENT_NAME%"
+    echo "OS: %AGENT_OS%"
+  displayName: 'Test Self-Hosted Agent'
+
+- script: |
+    echo "Current directory:"
+    cd
+    echo.
+    echo "Files:"
+    dir
+  displayName: 'List Files'
